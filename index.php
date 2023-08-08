@@ -9,7 +9,12 @@
   <body>
 
     <div class="container">
+
         <h1 class="mt-4 mb-4">Pesquisar do Sistema</h1>
+
+        <form class="mb-4" id="pesq-produto-form" method="POST">
+
+        </form>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
