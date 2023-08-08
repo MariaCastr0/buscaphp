@@ -15,7 +15,7 @@
         <form class="mb-4" id="pesq-produto-form" method="POST">
 
             <div class="col-12 mb-3">
-                <input type="text" name="produto" class="form-control" id="produto" placeholder="Digite a palavra">
+                <input type="text" name="produto" class="form-control" id="produto" placeholder="Digite a palavra" onkeyup="carregar_produtos(this.value)">
                 <span id="resultado_pesquisa"></span>
             </div>
 
@@ -27,6 +27,8 @@
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+    <script src="js/custom.js"></script>
 
   </body>
 </html>
