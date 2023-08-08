@@ -14,12 +14,13 @@
 
         <form class="mb-4" id="pesq-produto-form" method="POST">
 
-            <div class="col-12">
-                <input type="text" name="produto" class="form-control" id="produto" placeholder="Digite a palavra"> <br><br> <span id="resultado_pesquisa"></span>
+            <div class="col-12 mb-3">
+                <input type="text" name="produto" class="form-control" id="produto" placeholder="Digite a palavra">
+                <span id="resultado_pesquisa"></span>
             </div>
 
             <div class="col-12">
-                <button type="submit" class="btn btn-success"></button>
+                <button type="submit" class="btn btn-success">Pesquisar</button>
             </div>
 
         </form>
