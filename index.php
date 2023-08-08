@@ -14,6 +14,11 @@
 
         <form class="mb-4" id="pesq-produto-form" method="POST">
 
+            <div class="col-12">
+                <input type="text" name="produto" class="form-control" id="produto" placeholder="Digite a palavra"> <br><br>
+
+            </div>
+
         </form>
     </div>
 
